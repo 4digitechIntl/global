@@ -1,0 +1,18 @@
+.stroke {
+    display: block;
+    margin-top: -10px;
+    left: 0px;
+    width: 100%;
+    mix-blend-mode: darken;
+}
+.d-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  z-index: 1;
+}
+.relative{
+  position: relative;
+}

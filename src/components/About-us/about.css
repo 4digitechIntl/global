@@ -1,0 +1,36 @@
+.map-img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.cover-bg{
+    background-color: #f0f0f0db;
+    position: relative;
+}
+.banner-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .child{
+    flex: 0 1 200px;
+    margin: 35px;
+    height: 150px;
+    text-align: center;
+   }
+   .tlogo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50px;
+    mix-blend-mode: darken;
+    object-fit: contain;  
+}
