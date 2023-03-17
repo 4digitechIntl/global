@@ -11,18 +11,20 @@ import Testimonials from "../components/Testimonial/Testimonials";
 import ContactUs from "../components/Contact-us/ContactUs";
 import Footer from "../components/Footer/Footer";
 import StudyAbroad from "../components/Study-Abroad/StudyAbroad";
+import Welcome from "../components/Welcome-msg/Welcome";
 
 const Home = () => {
   return (
     <Fragment>
       <Header />
       <HeroSection />
+      <Welcome />
       <StudyAbroad />
       {/* <Test Preparation /> */}
       {/* <Countries /> */}
       <Courses />
       <ContactUs />
-      {/* <Testimonials /> */}
+      <Testimonials />
       {/* <Contact Us /> */}
       <Footer />
     </Fragment>

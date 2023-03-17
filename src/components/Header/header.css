@@ -45,7 +45,18 @@
 .mobile__menu {
   display: none;
 }
-
+.global-primary{
+  background-color: #054f8e;
+  color: white !important;
+}
+.navbar a{
+  color:#054f8e;
+  text-decoration: none;
+  font-weight: 500;
+}
+.social-links svg{
+  color:#054f8e;
+}
 @media only screen and (max-width: 991px) {
   .nav__menu {
     position: fixed;

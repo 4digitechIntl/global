@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-import Logo from "../../assests/images/Logo.png";
+import revert from "../../assests/images/revert-logo.png";
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -72,7 +72,7 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="6" className="mb-4">
             <div className="logo pb-3">
-                <img src={Logo} alt="Logo" height={60}/>
+                <img src={revert} alt="Logo" height={60}/>
             </div>
             <div className="follows">
               <h3 className="mb-0 fw-bold py-4">Let's socialize</h3>
@@ -142,8 +142,8 @@ const Footer = () => {
             </ListGroup>
           </Col>
         </Row>
-        <hr></hr>
-        <div className="d-flex justify-content-center">Copyright © 2023 Global Moon Consultancy</div>
+        <hr className="c-white"></hr>
+        <div className="copyright d-flex justify-content-center">Copyright © 2023 Global Moon Consultancy</div>
       </Container>
     </footer>
   );
