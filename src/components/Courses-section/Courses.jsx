@@ -40,17 +40,20 @@ const Courses = () => {
             <Row className="d-flex align-items-center">
               {
                 courses.map((item, index) => (             
-                  <div className="col-lg-3 col-sm-12 col-md-4">
-                      <div className="list-card">
-                        <div className="relative">
-                          <p className="fw-bold fs-1 py-2 mb-0 text-center d-center">{item.heading}.</p>
-                          <img src={stroke} alt='brush stroke' className="stroke" />
+                  <div className="col-sm-6 col-md-6 col-lg-3 my-3">
+                    <div class="ag-courses_item">
+                      <a href={item.href} class="ag-courses-item_link">
+                        <div class="ag-courses-item_bg"></div>
+                        <div class="ag-courses-item_title">
+                          {item.heading}.
                         </div>
-                          <p className="lh-sm card-text">{item.content}</p>
-                          <a className="btn-hero" href='/#about'>
-                          <span>Learn More</span>
-                          </a>
-                      </div>
+                        <div class="ag-courses-item_date-box">
+                          <span class="ag-courses-item_date">
+                            Learn More
+                          </span>
+                        </div>
+                      </a>
+                    </div>
                   </div>
                 ))
               }  

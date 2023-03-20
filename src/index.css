@@ -34,8 +34,6 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
-
-
 i {
   color: #17bf9e;
 }
@@ -56,4 +54,15 @@ fieldset{
 }
 .footer h3,.footer h6, .footer a, .footer .copyright{
   color: white !important;
+}
+.fw-5{
+  font-weight: 600;
+}
+.slick-slide{
+  background: #f0f0f0;
+  padding: 30px;
+  border-radius: 50px;
+  border:20px solid white;
+  /* margin: 20px; */
+  /* transform: translate(-100px, 0px); */
 }

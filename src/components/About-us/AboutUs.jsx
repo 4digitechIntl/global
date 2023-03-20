@@ -46,6 +46,8 @@ const AboutUs = () => {
     <div className="container">  
       {
         aboutus.map((item, index) => (
+         index % 2 !== 0 ?
+
           <div className="row py-5 my-5 d-flex align-items-center">
             <div className="col-md-6 col-sm-12">
               <img className="map-img" src={aboutone} alt="usa"></img>
@@ -53,6 +55,15 @@ const AboutUs = () => {
             <div className="col-md-6 col-sm-12">
             <h1 fw-bold>{item.heading}</h1>
             <p className="lh-base">{item.content}</p>
+            </div>
+          </div> :          
+           <div className="row py-5 my-5 d-flex align-items-center">
+            <div className="col-md-6 col-sm-12">
+            <h1 fw-bold>{item.heading}</h1>
+            <p className="lh-base">{item.content}</p>
+            </div>
+            <div className="col-md-6 col-sm-12">
+              <img className="map-img" src={aboutone} alt="usa"></img>
             </div>
           </div>
         ))

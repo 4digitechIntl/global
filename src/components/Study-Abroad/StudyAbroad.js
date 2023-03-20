@@ -9,10 +9,10 @@ import australia from "../../assests/images/australia.jpg";
 const StudyAbroad = () => {
   return (
     <section className="py-5" id="study">
-        <Container p-0>
+        <Container>
         <h1 className="fw-bold">Study Abroad.</h1>
         <p className="fw-bold fs-5">Start your overseas education journey with the best overseas education consultant.</p>
-            <Row className="d-flex align-items-center">
+            <Row className="d-flex align-items-center ">
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <div className = "card">
                         <img src={usa} alt="" className="card-img" />
