@@ -23,8 +23,12 @@ const tf ={
 const btn = {
     width:'95%',
     margin:'10px',
+    background:'#f37224',
     "&:active": {
       border:"white",
+    },
+    "&:hover": {
+      background:"#CF6120",
     },
 }
 const box = {
@@ -61,18 +65,31 @@ const AboutUs = () => {
                     <ul className="m-0 p-0">
                         <li className="list-card">
                             <p className="fw-bold mb-0">Call Us</p>
-                            <p className="mb-0 lh-base">NUmber NUmber NUmber NUmberNUmber NUmber NUmber</p>
-                            <p className="fw-bold mb-0"><PhoneIcon className="crc-btn p-1" /> 9812345678</p>
+                            <p className="mb-0 lh-base">Talk to us via phone.</p>
+                            <p className="fw-bold mb-0"><PhoneIcon className="crc-btn p-1" />
+                             <a href="tel:014168319"> 01-4168319 </a><span> , </span>
+                             <a href="tel:9863448300"> 9863448300 </a><span> , </span>
+                             <a href="tel:9815150952"> 9815150952 </a><span> , </span>
+                             </p>
                         </li>
                         <li className="list-card">
                             <p className="fw-bold mb-0">Visit  Us</p>
-                            <p className="mb-0 lh-base" >NUmber NUmber NUmber NUmberNUmber NUmber NUmber</p>
-                            <p className="fw-bold mb-0"><FmdGoodIcon  className="crc-btn p-1"/> 9812345678</p>
+                            <p className="mb-0 lh-base" >Visit Us to location provided below:</p>
+                            <p className="fw-bold mb-0"><FmdGoodIcon  className="crc-btn p-1"/>
+                                <a href="https://www.google.com/maps/place/Global+Moon+Consultancy+Pvt.Ltd./@27.7029231,85.3197507,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb19710582c1ed:0xf44e166229c0551a!8m2!3d27.7029184!4d85.3219394!16s%2Fg%2F11g1pncjdz" target='bl
+                                '>
+                                    Putalisadak, Kathmandu, Nepal
+                                </a>
+                            </p>
                         </li>
                         <li className="list-card">
                             <p className="fw-bold mb-0">Live Chat</p>
-                            <p className="mb-0 lh-base">NUmber NUmber NUmber NUmberNUmber NUmber NUmber</p>
-                            <p className="fw-bold mb-0"><VideoCallIcon  className="crc-btn p-1"/> 9812345678</p>
+                            <p className="mb-0 lh-base">Talk with us through messenger.</p>
+                            <p className="fw-bold mb-0"><VideoCallIcon  className="crc-btn p-1"/> 
+                            <a href="#">
+                                Open Chat Head
+                            </a>
+                            </p>
                         </li>
                         {/* <li className="list-card">
                             <p className="fw-bold mb-0">Text Us</p>
@@ -82,6 +99,18 @@ const AboutUs = () => {
                     </ul>
                 </div>
             </Row>
+            <div className="row py-5 br-2">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.4650838435728!2d85.31975071501475!3d27.70292313229335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19710582c1ed%3A0xf44e166229c0551a!2sGlobal%20Moon%20Consultancy%20Pvt.Ltd.!5e0!3m2!1sen!2snp!4v1679311608217!5m2!1sen!2snp"
+                    style={{ border: 0 }}
+                    allowfullscreen=""
+                    loading="{lazy}"
+                    referrerpolicy="{no-referrer-when-downgrade}"
+                    title="smartcleaming"
+                    height="450px"
+                >
+                </iframe>
+            </div>
         </Container>
     </section>
   );

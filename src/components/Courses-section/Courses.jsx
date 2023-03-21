@@ -4,27 +4,27 @@ import "./courses.css";
 import stroke from "../../assests/images/stroke.jpg";
 const courses = [  
   {
-    heading: "Ilets",
+    heading: "IELTS",
     content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
     img:"",
     href:"/courses/ilets",
   },
   {
-    heading: "Tofels",
-    content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-    img:"",
-    href:"/courses/ilets",
-  },
-
-  {
-    heading: "SAT",
+    heading: "PTE",
     content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
     img:"",
     href:"/courses/ilets",
   },
 
   {
-    heading: "N-5",
+    heading: "NAT(N5 & N4)",
+    content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
+    img:"",
+    href:"/courses/ilets",
+  },
+
+  {
+    heading: "JLPT",
     content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
     img:"",
     href:"/courses/ilets",
@@ -37,7 +37,7 @@ const Courses = () => {
         <Container p-0>
         <h1 className="fw-bold">Courses we provide.</h1>
         <p className="fw-bold fs-5">Start your overseas education journey with the best available courses.</p>
-            <Row className="d-flex align-items-center">
+            <Row className="d-flex align-items-center pt-4">
               {
                 courses.map((item, index) => (             
                   <div className="col-sm-6 col-md-6 col-lg-3 my-3">
