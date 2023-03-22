@@ -1,21 +1,17 @@
 import React from "react";
 import usa from "../../assests/images/usa.jpg";
 import aboutone from "../../assests/images/aboutone.png";
+import blobanimation from "../../assests/images/blobanimation.svg";
 import "./about.css";
 const aboutus = [  
-  // {
-  //   heading: "About Us",
-  //   content:"Established in 2009, GLOBAL MOON CONSULTANCY PVT. LTD. has already made a striking imprint in the field of education consultation serving hundreds of students for different rewarding academic destinations hitherto. We have been recognized for our flawless counseling services to satisfy and make successful the pursuance of students in desired profound destinations varying from Australia, USA, Canada, Japan, New Zealand and major European countries (Denmark, UK, Spain, Italy and Norway).",
-  //   url_img:"https://images.pexels.com/photos/2406454/pexels-photo-2406454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  // },
   {
     heading: "About Us",
-    content: "Been run with a compact team of counselors, educators, managers and instructors, Global Moon Consultancy has the environment that can be rarely found in similar other organizations. One visit with us and you will traverse your opinion about counseling and consultation service to the most productive and generative outlook possible. We are the translators of your dreams into reality with a speedy service and practical handling. We are grown truly from the same ground where you all are thus that is an exact asset we have accumulated to value your aim and target. Our mere ambition lies together with your success. Out entire team is dedicatedly committed to serve the best with our nitty-gritty services and regular conversation with you. We have been one of the most regularly visited consultancies in Kathmandu simply because of our friendly and outspoken management and staff team. Saying so, we are never tired of entertaining students from any educational standards or any geo-locations.",
+    content: "Global Moon Consultancy has a unique environment thanks to its team of counselors, educators, managers, and instructors. Our goal is to translate your dreams into reality quickly and practically, while providing excellent service and regular communication. Our team is dedicated to your success, and we pride ourselves on being a friendly and outspoken consultancy that welcomes students from all educational backgrounds and locations. Come visit us and experience a counseling and consultation service that will change your outlook on what's possible.",
     img:"",
   },
   {
     heading: "Why Us",
-    content: "We are embedded with local and international knowledge and experience as our team ranges with individual richness in field wise experiences and strength. Our entire emphasis is to apprehend the interest and goal of the students, to suggest and communicate with transparency, to assist choosing the most suitable destinations for abroad studies, preparing with language proficiency tests and making it happen. With our swift understanding and cooperation, you will learn what international education actually is and how it will be made happen for you. We search and apply for the possible scholarship programs to the deserving candidates in various subjects in every of our associated Universities. We will enlighten you with every possible course and degrees as per your education background with widest range of academic disciplines and open a window for you. Our team will be compliant to all of your queries and satisfy you with every curiosity that appears in the due course of application procedure. We deal with renowned and ranked universities where we assure your reputed academic achievement and celebrated degree that will guarantee your future aspiration building yourself a scholar in your field of study.",
+    content: "Our team at Global Moon Consultancy possesses a wealth of local and international knowledge and experience in various fields. We prioritize understanding each student's interests and goals, providing transparent advice, and assisting in choosing the best destinations for studying abroad, including language proficiency tests. We quickly and cooperatively guide you through the international education process and search for possible scholarship programs in various subjects at our affiliated universities. We offer a wide range of academic disciplines and degrees tailored to your educational background, answering any questions you may have during the application procedure. Our partnerships with renowned and ranked universities ensure your academic success and a celebrated degree, paving the way for future career aspirations in your chosen field.",
     img:"",
   },
 
@@ -47,10 +43,10 @@ const AboutUs = () => {
       {
         aboutus.map((item, index) => (
          index % 2 !== 0 ?
-
           <div className="row py-5 my-5 d-flex align-items-center">
-            <div className="col-md-6 col-sm-12">
-              <img className="map-img" src={aboutone} alt="usa"></img>
+            <div className="col-md-6 col-sm-12 relative text-center">
+              <img className="side-img" src={aboutone} alt="usa"></img>
+              <img className="blob-img" src={blobanimation} alt="blob"></img>
             </div>
             <div className="col-md-6 col-sm-12">
             <h1 fw-bold>{item.heading}</h1>
@@ -62,8 +58,9 @@ const AboutUs = () => {
             <h1 fw-bold>{item.heading}</h1>
             <p className="lh-base">{item.content}</p>
             </div>
-            <div className="col-md-6 col-sm-12">
-              <img className="map-img" src={aboutone} alt="usa"></img>
+            <div className="col-md-6 col-sm-12 relative text-center">
+              <img className="side-img" src={aboutone} alt="usa"></img>
+              <img className="blob-img" src={blobanimation} alt="blob"></img>
             </div>
           </div>
         ))

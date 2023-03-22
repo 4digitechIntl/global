@@ -57,6 +57,58 @@
 .social-links svg{
   color:#054f8e;
 }
+.dropdown{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: absolute!important;
+  background: white;
+  padding-top: 25px;
+  display: none;
+  transform: translate(-140px, 0px);
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.nav__item:hover .dropdown{
+  display: block;
+}
+.drop_menu{
+  cursor: pointer;
+  transition: all 0.5s;
+  padding: 5px 0px;
+}
+.drop_menu .drop_menu_a{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.drop_menu .drop_menu_a:before {
+  content: '✈';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -35px;
+  transition: 0.5s;
+ }
+ .drop_menu:hover .drop_menu_a {
+  padding-left: 5px;
+ }
+ 
+ .drop_menu a{
+  font-size: 1rem;
+ }
+ 
+ .drop_menu:hover .drop_menu_a:before {
+  opacity: 1;
+  right: -25px;
+ }
+ @media (max-width: 992px)
+ {
+  .info-nav .container{
+      justify-content: center!important;
+      font-size: 13px;
+    }
+ }
 @media only screen and (max-width: 991px) {
   .nav__menu {
     position: fixed;

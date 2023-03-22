@@ -62,7 +62,8 @@ fieldset{
   background: #f0f0f0;
   padding: 30px;
   border-radius: 50px;
-  border:20px solid white;
+  border:20px solid #054f8e;
+  color: black;
   /* margin: 20px; */
   /* transform: translate(-100px, 0px); */
 }

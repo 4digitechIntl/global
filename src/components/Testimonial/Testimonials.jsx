@@ -25,7 +25,7 @@ const Testimonials = () => {
     ]
   };
   return (
-    <section className="py-5">
+    <section className="py-5 global-primary">
       <Container>
       <h1 className="fw-bold">Testinomials.</h1>
         <p className="fw-bold fs-5">Hear From people who got here before you.</p>

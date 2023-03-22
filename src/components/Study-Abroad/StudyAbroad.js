@@ -1,9 +1,6 @@
 import React from "react";
 import { Container, Row } from "reactstrap";
 import "./studyabroad.css";
-import usa from "../../assests/images/usa.jpg";
-import japan from "../../assests/images/japan.jpg";
-import australia from "../../assests/images/australia.jpg";
 const countries = [  
     {
       heading: "Study in Japan.",

@@ -23,9 +23,8 @@ const Home = () => {
       {/* <Test Preparation /> */}
       {/* <Countries /> */}
       <Courses />
-      <ContactUs />
       <Testimonials />
-      {/* <Contact Us /> */}
+      <ContactUs />
       <Footer />
     </Fragment>
   );

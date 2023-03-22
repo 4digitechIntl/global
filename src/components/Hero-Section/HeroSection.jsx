@@ -7,6 +7,8 @@ import stdone from "../../assests/images/stdone.png";
 import usa from "../../assests/images/usa.jpg";
 import australia from "../../assests/images/australia.jpg";
 
+import carousel_one from "../../assests/images/carousel_one.jpeg";
+
 const HeroSection = () => {
   return (
     <section>
@@ -15,7 +17,7 @@ const HeroSection = () => {
             <span className="overlay"/>
             <img
               className="d-block w-100 slider-img"
-              src={japan}
+              src={carousel_one}
               alt="Second slide"
             />
               <Row className="hero-banner">

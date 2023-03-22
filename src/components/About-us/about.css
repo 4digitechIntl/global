@@ -16,6 +16,11 @@
     object-fit: cover;
     z-index: -1;
 }
+.side-img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
 .parent{
     display: flex;
     flex-wrap: wrap;
@@ -33,4 +38,10 @@
     border-radius: 50px;
     mix-blend-mode: darken;
     object-fit: contain;  
+}
+.blob-img{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: -1;
 }

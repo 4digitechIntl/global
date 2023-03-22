@@ -65,6 +65,8 @@
     }
     .card-p {
       inset: auto auto 95px 30px;
+      height: 179px;
+      overflow: hidden;
     }
     .card-overlay{
       position: absolute;
