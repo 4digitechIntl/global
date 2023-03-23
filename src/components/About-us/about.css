@@ -17,9 +17,10 @@
     z-index: -1;
 }
 .side-img{
-    height: 80%;
-    width: 80%;
-    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 2/2;
+    object-fit: cover;
 }
 .parent{
     display: flex;

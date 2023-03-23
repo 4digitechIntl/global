@@ -13,29 +13,6 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import RoomIcon from '@mui/icons-material/Room';
 import EmailIcon from '@mui/icons-material/Email';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-const navLinks = [
-  {
-    display: "Home",
-    url: "/",
-  },
-  {
-    display: "About Us",
-    url: "/about",
-  },
-
-  {
-    display: "Study Abroad",
-    url: "#study",
-  },
-  {
-    display: "Test Preparation",
-    url: "#",
-  },
-  {
-    display: "Contact Us",
-    url: "#contact",
-  },
-];
 
 const Header = () => {
   const menuRef = useRef();
@@ -101,7 +78,7 @@ const Header = () => {
                       <div className="col-4">
                         <ul className="m-0 p-0">
                           <li className="drop_menu">
-                            <a href='#' className="drop_menu_a">Study in Japan.</a>
+                            <Link to='/studyabroad' className="drop_menu_a">Study in Japan.</Link>
                           </li>
                           <li className="drop_menu">
                             <a href='#' className="drop_menu_a">Study in Australia.</a>
