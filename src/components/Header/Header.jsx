@@ -151,8 +151,8 @@ const Header = () => {
                   </div>
                 </li>
                 <li className="nav__item">
-                  <Link to='/'>Test Preparation</Link>
-                  <ArrowDropDownIcon></ArrowDropDownIcon>
+                  <Link to='/'>Test Preparation
+                  <ArrowDropDownIcon></ArrowDropDownIcon></Link>
                 <div className="dropdown" style={{transform: 'translate(-20px, 0px)'}}>
                     <div className="row">
                       <div className="col-12 px-4">
@@ -174,13 +174,13 @@ const Header = () => {
                     </div>
                 </div>
                 </li>
-                <li className="nav__item">
+                <li className="nav__item nav-cta">
                   <a href='#contact'>Contact Us</a>
                 </li>
+
               </ul>
             </div>
           </div>
-
           <div className="mobile__menu">
             <span>
               <i className="ri-menu-line" onClick={menuToggle}></i>

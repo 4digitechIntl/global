@@ -89,7 +89,7 @@ const Studyin = () => {
                 <img className="blob-img" src={blobanimation} alt="blob"></img>
                 </div>
                 <div className="col-md-6 col-sm-12">
-                <h1 fw-bold>{item.titleone}</h1>
+                <h1 className="fw-bold">{item.titleone}</h1>
                 <p className="lh-base">{item.titleonecontent}</p>
                 <a className="btn-hero" href='#contact' style={{width:'300px'}}>
                   <span>Contact Us to Study in Japan</span>
@@ -98,7 +98,7 @@ const Studyin = () => {
             </div>
             <div className="row  my-5 d-flex align-items-center ">
                 <div className="col-md-6 col-sm-12">
-                <h1 fw-bold>{item.popcourses}</h1>
+                <h1 className="fw-bold">{item.popcourses}</h1>
                 <p className="lh-base">{item.popcourses_content}</p>
                 <a className="btn-hero" href='#contact' style={{width:'300px'}}>
                   <span>Contact Us to Study in Japan</span>
@@ -115,7 +115,7 @@ const Studyin = () => {
                 <img className="blob-img" src={blobanimation} alt="blob"></img>
                 </div>
                 <div className="col-md-6 col-sm-12">
-                <h1 fw-bold>{item.visarequirements}</h1>
+                <h1 className="fw-bold">{item.visarequirements}</h1>
                 <p className="lh-base">
                 <ol>
                   <li>1. Register With An Education Counselor to apply for a Canada Student Visa.</li>

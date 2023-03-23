@@ -3,7 +3,7 @@ import "./testimonial.css";
 import { Container, Row, Col } from "reactstrap";
 import Slider from "react-slick";
 
-import img from "../../assests/images/testinomial.jpg";
+import airplane from "../../assests/images/airplane.png";
 
 const Testimonials = () => {
   const settings = {
@@ -25,7 +25,10 @@ const Testimonials = () => {
     ]
   };
   return (
-    <section className="py-5 global-primary">
+    <section className="py-5 global-primary relative">
+      <div className="icon-bg">
+        <img src={airplane} alt="airplane"></img>
+      </div>
       <Container>
       <h1 className="fw-bold">Testinomials.</h1>
         <p className="fw-bold fs-5">Hear From people who got here before you.</p>

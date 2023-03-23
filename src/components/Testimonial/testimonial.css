@@ -5,3 +5,11 @@
   height: 100%;
   width: 100%;
 }
+.icon-bg{
+  position: absolute;
+  right: 0;
+  top: 0%;
+  transform: translate(-10%, 20%);
+  filter: invert(100);
+  opacity: 0.7;
+}

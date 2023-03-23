@@ -12,6 +12,7 @@
   list-style: none;
   display: flex;
   column-gap: 1.3rem;
+  align-items: center;
 }
 
 .nav__item a {

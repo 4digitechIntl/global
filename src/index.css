@@ -43,6 +43,7 @@ fieldset{
 }
 .relative{
   position: relative;
+  overflow: hidden;
 }
 .global-secondary{
   background-color: #56c8f373;
