@@ -57,12 +57,13 @@ const Header = () => {
       <nav className="navbar navbar-expand-md  py-3 d-flex justify-content-between">
         <Container>
           <div className="logo">
+            <Link to='/'>
             <img src={Logo} alt="Logo" height={60} />
+            </Link>
           </div>
           <div className="nav align-items-center gap-5">
             <div className="nav__menu" ref={menuRef} onClick={menuToggle}>
               <ul className="nav__list">
-
                 <li className="nav__item">
                   <Link to='/'>Home</Link>
                 </li>
@@ -70,12 +71,12 @@ const Header = () => {
                   <Link to='/about'>About Us</Link>
                 </li>
                 <li className="nav__item">
-                  <a href='#study'>Study Abroad 
+                  <Link to='/studyabroadcountries'>Study Abroad 
                   <ArrowDropDownIcon></ArrowDropDownIcon>
-                  </a>
+                  </Link>
                   <div className="dropdown">
                     <div className="row">
-                      <div className="col-4">
+                      <div className="col-12 px-4">
                         <ul className="m-0 p-0">
                           <li className="drop_menu">
                             <Link to='/studyabroad' className="drop_menu_a">Study in Japan.</Link>
@@ -84,23 +85,23 @@ const Header = () => {
                             <a href='#' className="drop_menu_a">Study in Australia.</a>
                           </li>
                           <li className="drop_menu">
-                            <a href='#' className="drop_menu_a">Study in USA.</a>
+                            <a href='#' className="drop_menu_a">Study in UK.</a>
                           </li>
                           <li className="drop_menu">
                             <a href='#' className="drop_menu_a">Study in Denmark.</a>
                           </li>
                           <li className="drop_menu">
-                            <a href='#' className="drop_menu_a">Study in India.</a>
+                            <a href='#' className="drop_menu_a">Study in Canada.</a>
                           </li>
                           <li className="drop_menu">
-                            <a href='#' className="drop_menu_a">Study in Sweden.</a>
+                            <a href='#' className="drop_menu_a">Study in Korea.</a>
                           </li>
                           <li className="drop_menu">
-                            <a href='#' className="drop_menu_a">Study in Portugal.</a>
+                            <a href='#' className="drop_menu_a">Study in USA.</a>
                           </li>
                         </ul>
                       </div>
-                      <div className="col-4">
+                      {/* <div className="col-4">
                         <ul className="m-0 p-0">
                           <li className="drop_menu">
                             <a href='#' className="drop_menu_a">Study in UK.</a>
@@ -146,7 +147,7 @@ const Header = () => {
                             <a href='#' className="drop_menu_a">Study in Spain.</a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>  
                   </div>
                 </li>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row } from "reactstrap";
 import "./studyabroad.css";
+import { Link } from "react-router-dom";
 const countries = [  
     {
       heading: "Study in Japan.",
@@ -23,13 +24,6 @@ const countries = [
     },
   
     {
-      heading: "Study in Denmark.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/416024/pexels-photo-416024.jpeg",
-      href:"/courses/ilets",
-    },
-  
-    {
       heading: "Study in UK.",
       content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
       img:"https://images.pexels.com/photos/6100149/pexels-photo-6100149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -44,102 +38,18 @@ const countries = [
     },
   
     {
-      heading: "Study in Ireland.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/2416653/pexels-photo-2416653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      href:"/courses/ilets",
-    },
-  
-    {
       heading: "Study in Korea.",
       content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
       img:"https://images.pexels.com/photos/5051600/pexels-photo-5051600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1&fbclid=IwAR0mdAJZYhaZiBk7TuIltjanJ18uWTesKaLQ4JcSSokOpnr69RXBvp_r8Ao",
       href:"/courses/ilets",
-    },
-  
+    },  
     {
-      heading: "Study in Malta.",
+      heading: "Study in Denmark.",
       content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/14103325/pexels-photo-14103325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img:"https://images.pexels.com/photos/416024/pexels-photo-416024.jpeg",
       href:"/courses/ilets",
     },
-  
-    {
-      heading: "Study in Dubai.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/3214995/pexels-photo-3214995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1&fbclid=IwAR2TQw8wKUbL6wOWzfYsA4LF-cMP-2AIpi0mEe_Fi4i_eIx0ajUcud2M4AI",
-      href:"/courses/ilets",
-    },
-  
-    {
-      heading: "Study in New Zealand.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/8548121/pexels-photo-8548121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      href:"/courses/ilets",
-    },
-  
-    {
-      heading: "Study in China.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/9157126/pexels-photo-9157126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      href:"/courses/ilets",
-    },
-  
-    {
-      heading: "Study in India.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/14535714/pexels-photo-14535714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      href:"/courses/ilets",
-    },
-  
-    {
-      heading: "Study in France.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/460740/pexels-photo-460740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      href:"/courses/ilets",
-    },
-  
-    {
-      heading: "Study in Bangladesh.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/8863235/pexels-photo-8863235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      href:"/courses/ilets",
-    },
-  
-    {
-      heading: "Study in Spain.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/10829071/pexels-photo-10829071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      href:"/courses/ilets",
-    },
-  
-    {
-      heading: "Study in Finland.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/3493651/pexels-photo-3493651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      href:"/courses/ilets",
-    },
-  
-    {
-      heading: "Study in Sweden.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/11261851/pexels-photo-11261851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      href:"/courses/ilets",
-    },
-  
-    {
-      heading: "Study in Portugal.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/11261851/pexels-photo-11261851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      href:"/courses/ilets",
-    },
-  
-    {
-      heading: "Study in Germany.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/2549031/pexels-photo-2549031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      href:"/courses/ilets",
-    },
+    
   ];
 
 const StudyAbroad = () => {
@@ -172,6 +82,11 @@ const StudyAbroad = () => {
                 }
 
             </Row>
+            <div className="text-center">
+            <Link to='/studyabroadcountries' className="btn-hero" href='#contact' style={{width:'300px'}}>
+              <span>View More Countries</span>
+            </Link>
+            </div>
         </Container>
     </section>
   );

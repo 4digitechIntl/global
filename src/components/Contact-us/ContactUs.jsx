@@ -9,6 +9,10 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import ChatIcon from '@mui/icons-material/Chat';
 import VideoCallIcon from '@mui/icons-material/VideoCall';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
 const tf ={
     width:'95%',
     margin:'10px',
@@ -38,6 +42,11 @@ const box = {
 
 }
 const AboutUs = () => {
+    const [age, setAge] = React.useState('');
+
+    const handleChange = (event) => {
+      setAge(event.target.value);
+    };
   return (
     <section className="py-5" id="contact">
         <Container p-0>
@@ -53,6 +62,22 @@ const AboutUs = () => {
                     <TextField id="outlined-basic" label="Your Email" variant="outlined" sx={tf} />
                     <TextField id="outlined-basic" label="Your Name" variant="outlined" sx={tf} />
                     <TextField id="outlined-basic" label="Your Number" variant="outlined" sx={tf} />
+                    
+                    <FormControl fullWidth>
+                        <InputLabel id="demo-simple-select-label">How can we help you?</InputLabel>
+                        <Select
+                            labelId="demo-simple-select-label"
+                            id="demo-simple-select"
+                            value={age}
+                            label="Age"
+                            onChange={handleChange}
+                            sx={tf}
+                        >
+                            <MenuItem value={10}>Test Preparations.</MenuItem>
+                            <MenuItem value={20}>Study Abroad.</MenuItem>
+                            <MenuItem value={30}>Student Counseling.</MenuItem>
+                        </Select>
+                    </FormControl>
                     <TextField id="outlined-basic" label="Your Question?" multiline maxRows={4}  sx={tf} />
                     <Button
                         component="label"
@@ -86,7 +111,7 @@ const AboutUs = () => {
                             <p className="fw-bold mb-0">Live Chat</p>
                             <p className="mb-0 lh-base">Talk with us through messenger.</p>
                             <p className="fw-bold mb-0"><VideoCallIcon  className="crc-btn p-1"/> 
-                            <a href="#">
+                            <a href="https://www.facebook.com/messages/t/142332636434753" target='_blank'>
                                 Open Chat Head
                             </a>
                             </p>
@@ -100,9 +125,32 @@ const AboutUs = () => {
                 </div>
             </Row>
             <div className="row py-5 br-2">
+            <div className="col-sm-12 col-md-6">
+                <p className="fw-bold fs-5">Our International Branches</p>
+                
+                <li className="list-card">
+                    <p className="fw-bold mb-0">Toronto, Canada</p>
+                    <p className="fw-bold mb-0"><PhoneIcon className="crc-btn p-1" />
+                        <a href="tel:+1 416 978 2190"> +1 416 978 2190</a>
+                    </p>
+                </li>                
+                <li className="list-card">
+                    <p className="fw-bold mb-0">Tokyo Japan, Canada</p>
+                    <p className="fw-bold mb-0"><PhoneIcon className="crc-btn p-1" />
+                        <a href="tel:+81 8055 4433"> +81 8055 4433 </a>
+                    </p>
+                </li>                
+                <li className="list-card">
+                    <p className="fw-bold mb-0">Sydney, Australia</p>
+                    <p className="fw-bold mb-0"><PhoneIcon className="crc-btn p-1" />
+                        <a href="tel:+61 2 6201 5111"> +61 2 6201 5111 </a>
+                    </p>
+                </li>
+            </div>
+            <div className="col-sm-12 col-md-6">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.4650838435728!2d85.31975071501475!3d27.70292313229335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19710582c1ed%3A0xf44e166229c0551a!2sGlobal%20Moon%20Consultancy%20Pvt.Ltd.!5e0!3m2!1sen!2snp!4v1679311608217!5m2!1sen!2snp"
-                    style={{ border: 0 }}
+                    style={{ border: 0,width:'100%',borderRadius:'20px' }}
                     allowfullscreen=""
                     loading="{lazy}"
                     referrerpolicy="{no-referrer-when-downgrade}"
@@ -110,6 +158,7 @@ const AboutUs = () => {
                     height="450px"
                 >
                 </iframe>
+            </div>
             </div>
         </Container>
     </section>
