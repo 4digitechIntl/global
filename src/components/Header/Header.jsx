@@ -70,9 +70,9 @@ const Header = () => {
                   <Link to='/about'>About Us</Link>
                 </li>
                 <li className="nav__item">
-                  <Link to='/'>Study Abroad 
+                  <a href='#study'>Study Abroad 
                   <ArrowDropDownIcon></ArrowDropDownIcon>
-                  </Link>
+                  </a>
                   <div className="dropdown">
                     <div className="row">
                       <div className="col-4">
@@ -151,14 +151,14 @@ const Header = () => {
                   </div>
                 </li>
                 <li className="nav__item">
-                  <Link to='/'>Test Preparation
-                  <ArrowDropDownIcon></ArrowDropDownIcon></Link>
+                  <a href="#test">Test Preparation
+                  <ArrowDropDownIcon></ArrowDropDownIcon></a>
                 <div className="dropdown" style={{transform: 'translate(-20px, 0px)'}}>
                     <div className="row">
                       <div className="col-12 px-4">
                         <ul className="m-0 p-0">
                           <li className="drop_menu">
-                            <a href='#' className="drop_menu_a">IELTS</a>
+                            <Link to='/preparation' className="drop_menu_a">IELTS</Link>
                           </li>
                           <li className="drop_menu">
                             <a href='#' className="drop_menu_a">PTE</a>

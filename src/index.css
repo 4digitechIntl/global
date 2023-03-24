@@ -68,3 +68,11 @@ fieldset{
   /* margin: 20px; */
   /* transform: translate(-100px, 0px); */
 }
+
+
+@media (max-width: 768px)
+{
+  .logo img {
+      height: 40px;
+  }
+}

@@ -151,7 +151,7 @@ const StudyAbroad = () => {
             <Row className="d-flex align-items-center mt-5">
                 {
                 countries.map((item, index) => (    
-                <div className="col-sm-12 col-md-6 col-lg-4">
+                <div className="col-sm-6 col-md-6 col-lg-4">
                     <div className = "card">
                         <img src={item.img} className='card-img'/>
                         <div className="card-content">
@@ -164,7 +164,7 @@ const StudyAbroad = () => {
                         </p>
                         <a className="btn-hero card-button" href='/#about'>
                                 <span>Learn More</span>
-                                </a>
+                        </a>
                         </div>
                     </div>
                 </div>
