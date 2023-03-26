@@ -71,44 +71,69 @@ const AboutUs = () => {
         <div className='parent py-5 my-5'>
             <div className='child'>
               <img className="tlogo" src={aboutone}/>
-              <p className="team-name m-0 lh-base fw-bold fs-5">Ram Hari</p>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Krishna Acharya</p>
               <p className="team-role m-0 lh-base">CEO</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={aboutone} alt="planning"/>
-              <p className="team-name m-0 lh-base fw-bold fs-5">Ram Hari</p>
-              <p className="team-role m-0 lh-base">CEO</p>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Balaram Lamichhane</p>
+              <p className="team-role m-0 lh-base">Manager</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={aboutone} alt="planning"/>
-              <p className="team-name m-0 lh-base fw-bold fs-5">Ram Hari</p>
-              <p className="team-role m-0 lh-base">CEO</p>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Hemraj Sharma</p>
+              <p className="team-role m-0 lh-base">Canada Head</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={aboutone} alt="planning"/>
-              <p className="team-name m-0 lh-base fw-bold fs-5">Ram Hari</p>
-              <p className="team-role m-0 lh-base">CEO</p>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Chandra Datta Sharam</p>
+              <p className="team-role m-0 lh-base">Korea Head</p>
             </div>
 
             <div className='child'>
               <img className="tlogo" src={aboutone} alt="planning"/>
-              <p className="team-name m-0 lh-base fw-bold fs-5">Ram Hari</p>
-              <p className="team-role m-0 lh-base">CEO</p>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Prakash paudel</p>
+              <p className="team-role m-0 lh-base">USA Head</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={aboutone} alt="planning"/>
-              <p className="team-name m-0 lh-base fw-bold fs-5">Ram Hari</p>
-              <p className="team-role m-0 lh-base">CEO</p>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Krish Lamichhane</p>
+              <p className="team-role m-0 lh-base">Japan Head</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={aboutone} alt="planning"/>
-              <p className="team-name m-0 lh-base fw-bold fs-5">Ram Hari</p>
-              <p className="team-role m-0 lh-base">CEO</p>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Sagar Acharya</p>
+              <p className="team-role m-0 lh-base">USA Head</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={aboutone} alt="planning"/>
-              <p className="team-name m-0 lh-base fw-bold fs-5">Ram Hari</p>
-              <p className="team-role m-0 lh-base">CEO</p>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Uttam Pandit</p>
+              <p className="team-role m-0 lh-base">Japan Head</p>
+            </div>
+            <div className='child'>
+              <img className="tlogo" src={aboutone} alt="planning"/>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Pritam Khadka</p>
+              <p className="team-role m-0 lh-base">Australia Head</p>
+            </div>
+            <div className='child'>
+              <img className="tlogo" src={aboutone} alt="planning"/>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Palden Sensei</p>
+              <p className="team-role m-0 lh-base">Japan Faciliter</p>
+            </div>
+            <div className='child'>
+              <img className="tlogo" src={aboutone} alt="planning"/>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Bimala Devi Sharma</p>
+              <p className="team-role m-0 lh-base">Administrator</p>
+            </div>
+            <div className='child'>
+              <img className="tlogo" src={aboutone} alt="planning"/>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Dristee Shinkhada</p>
+              <p className="team-role m-0 lh-base">Canada Faciliter</p>
+            </div>
+            <div className='child'>
+              <img className="tlogo" src={aboutone} alt="planning"/>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Sumitra Maraseni</p>
+              <p className="team-role m-0 lh-base">Receptionist</p>
             </div>
           </div>
       </div>

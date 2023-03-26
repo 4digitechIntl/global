@@ -13,8 +13,8 @@ const about = () => {
     <Fragment>
       <Header />
       <AboutUs />
-      <ContactUs />
       <Testimonials />
+      <ContactUs />
       <Footer />
     </Fragment>
   );
