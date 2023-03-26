@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import Header from "../components/Header/Header";
 import HeroSection from "../components/Hero-Section/HeroSection";
 
@@ -17,11 +17,25 @@ import StudyAbroad from "../components/Study-Abroad/StudyAbroad";
 import Welcome from "../components/Welcome-msg/Welcome";
 
 const Home = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
+
+  window.addEventListener("beforeunload", (e) => {
+    localStorage.setItem("tabClosed", true);
+  });
+
+  useEffect(() => {
+    const wasTabClosed = localStorage.getItem("tabClosed");
+
+    if (wasTabClosed === "true") {
+      console.log("hello");
+      setOpen(true);
+      localStorage.setItem("tabClosed", false);
+    }
+  }, []);
 
   return (
     <Fragment>
-      <Dialog open={open} onClose={() => setOpen(false)}>
+      <Dialog open={open} onClose={() => setOpen(false)} maxWidth='md' style={styles.banner} >
         <DialogContent style={styles.container}>
           <img src={DialogImg} style={styles.img} />
           <Close style={styles.icon} onClick={() => setOpen(false)} />
@@ -46,7 +60,8 @@ const styles = {
     padding: 0,
   },
   img: { width: "100%", height: "100%" },
-  icon: { position: "absolute", top: "2%", right: "2%" },
+  icon: { position: "absolute", top: "3%", right: "2%",color:"white",fontSize:"35px" },
+  banner:{zIndex:"999999999999999999999999"},
 };
 
 export default Home;

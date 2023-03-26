@@ -1,12 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./contact-us.css";
-import usa from "../../assests/images/usa.jpg";
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import PhoneIcon from '@mui/icons-material/Phone';
-import ChatIcon from '@mui/icons-material/Chat';
+
 import VideoCallIcon from '@mui/icons-material/VideoCall';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import InputLabel from '@mui/material/InputLabel';
@@ -25,22 +24,21 @@ const tf ={
   };
 
 const btn = {
-    width:'95%',
-    margin:'10px',
-    background:'#f37224',
-    "&:active": {
-      border:"white",
-    },
-    "&:hover": {
-      background:"#CF6120",
-    },
-}
+  width: "95%",
+  margin: "10px",
+  background: "#f37224",
+  "&:active": {
+    border: "white",
+  },
+  "&:hover": {
+    background: "#CF6120",
+  },
+};
 const box = {
-    padding:'10px',
-    background:'#f0f0f0',
-    borderRadius:'20px'
-
-}
+  padding: "10px",
+  background: "#f0f0f0",
+  borderRadius: "20px",
+};
 const AboutUs = () => {
     const [age, setAge] = React.useState('');
 
@@ -49,7 +47,7 @@ const AboutUs = () => {
     };
   return (
     <section className="py-5" id="contact">
-        <Container p-0>
+      <Container p-0>
         <h1 className="fw-bold">Get in touch.</h1>
         <p className="fw-bold fs-5">Hey, we’d like to know you better too!</p>
             <Row className="d-flex align-items-center">
@@ -166,4 +164,3 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
-

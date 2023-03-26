@@ -120,9 +120,9 @@
   color: white;
  }
  a{
-  z-index: 999!important;
-  text-decoration: none!important;
-    color: #054f8e!important;
+    z-index: 999!important;
+    text-decoration: none!important;
+    color: #054f8e;
  }
 @media only screen and (max-width: 700px) {
   .hero-header{

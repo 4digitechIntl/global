@@ -11,6 +11,10 @@
     margin-bottom: 1.5rem;
 
 }
+.list-card a{
+    color:#054f8e;
+
+}
 .crc-btn{
     background: #f37224;
     border-radius: 20px;

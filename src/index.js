@@ -12,7 +12,7 @@ import MessengerCustomerChat from "react-messenger-customer-chat";
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <MessengerCustomerChat pageId="100088664633733" appId="182749174512489" />,
+    {/* <MessengerCustomerChat pageId="100088664633733" appId="182749174512489" />, */}
   </React.StrictMode>,
   document.getElementById("root")
 );
