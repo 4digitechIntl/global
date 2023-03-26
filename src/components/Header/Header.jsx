@@ -37,10 +37,10 @@ const Header = () => {
             Putalishadak, Kathmandu, Nepal
           </a>
           <div className="social-links">
-            <a href="https://www.twitter.com" target="_blank">
+            <a href="https://twitter.com/globalmoon_edu" target="_blank">
               <TwitterIcon className="m-2" />
             </a>
-            <a href="https://www.facebook.com" target="_blank">
+            <a href="https://www.facebook.com/globalmoon.education" target="_blank">
               <FacebookIcon className="m-2" />
             </a>
             <a href="https://www.linkedin.com" target="_blank">
@@ -49,10 +49,10 @@ const Header = () => {
             <a href="https://www.linkedin.com" target="_blank">
               <WhatsAppIcon className="m-2" />
             </a>
-            <a href="https://www.linkedin.com" target="_blank">
+            <a href="https://www.instagram.com/globalmoon.consultancy" target="_blank">
               <InstagramIcon className="m-2" />
             </a>
-            <a href="https://www.linkedin.com" target="_blank">
+            <a href="https://www.youtube.com/@globalmoonconsultancypvt.l5161" target="_blank">
               <YouTubeIcon className="m-2" />
             </a>
           </div>
@@ -86,31 +86,39 @@ const Header = () => {
                       <div className="col-12 px-4">
                         <ul className="m-0 p-0">
                           <li className="drop_menu">
-                            <Link to="/studyabroad" className="drop_menu_a">
+                            <Link to="/studyabroad/japan" className="drop_menu_a">
                               Study in Japan.
                             </Link>
                           </li>
                           <li className="drop_menu">
-                            <a href="#" className="drop_menu_a">
+                            <Link to="/studyabroad/australia" className="drop_menu_a">
                               Study in Australia.
-                            </a>
+                            </Link>
                           </li>
                           <li className="drop_menu">
-                            <a href='#' className="drop_menu_a">Study in UK.</a>
+                            <Link to="/studyabroad/uk" className="drop_menu_a">
+                              Study in UK.
+                            </Link>
                           </li>
                           <li className="drop_menu">
-                            <a href="#" className="drop_menu_a">
+                            <Link to="/studyabroad/denmark" className="drop_menu_a">
                               Study in Denmark.
-                            </a>
+                            </Link>
                           </li>
                           <li className="drop_menu">
-                            <a href='#' className="drop_menu_a">Study in Canada.</a>
+                            <Link to="/studyabroad/canada" className="drop_menu_a">
+                              Study in Canada.
+                            </Link>
                           </li>
                           <li className="drop_menu">
-                            <a href='#' className="drop_menu_a">Study in Korea.</a>
+                            <Link to="/studyabroad/korea" className="drop_menu_a">
+                              Study in Korea.
+                            </Link>
                           </li>
                           <li className="drop_menu">
-                            <a href='#' className="drop_menu_a">Study in USA.</a>
+                            <Link to="/studyabroad/usa" className="drop_menu_a">
+                              Study in USA.
+                            </Link>
                           </li>
                         </ul>
                       </div>

@@ -38,6 +38,7 @@ const box = {
   padding: "10px",
   background: "#f0f0f0",
   borderRadius: "20px",
+//   maxWidth:"600px"
 };
 const Schedule = () => {
     const [age, setAge] = React.useState('');
@@ -62,7 +63,8 @@ const Schedule = () => {
             <div className="container py-5">
                 <h1 className="fw-bold">Get a Quote.</h1>
                 <p className="fw-bold fs-5">We will send you mail for link to virtual meeting.</p>
-                <div className="row d-flex align-items-center">
+                <div className="row d-flex align-items-center ">
+                    <div className="col-12">
                     <Box
                     component="form"
                     sx={box}
@@ -94,6 +96,7 @@ const Schedule = () => {
                         sx={btn}
                     >Submit</Button>
                     </Box>
+                    </div>
                 </div>       
             </div>
         </section>

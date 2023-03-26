@@ -71,6 +71,10 @@ fieldset{
 #demo-simple-select-label{
   padding: 10px!important;
 }
+.list-item-custom{
+  list-style-type: disc;
+  line-height: 30px;
+}
 @media (max-width: 768px)
 {
   .logo img {

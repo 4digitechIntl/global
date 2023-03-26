@@ -1,68 +1,95 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import revert from "../../assests/images/revert-logo.png";
-import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
-
+import { Link } from "react-router-dom";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import "./footer.css";
+import { WhatsApp } from "@mui/icons-material";
+import YouTube from "@mui/icons-material/YouTube";
 
 const footerQuickLinks = [
   {
     display: "Home",
-    url: "#",
+    url: "/",
   },
   {
     display: "About US",
-    url: "#",
+    url: "/about",
   },
 
   {
-    display: "Courses",
-    url: "#",
+    display: "Test Preparation",
+    url: "/preparation",
   },
 
   {
-    display: "Contact Us",
-    url: "#",
+    display: "Virtual Meeting",
+    url: "/virtual-councelling",
+  },
+
+  {
+    display: "Study Abroad",
+    url: "/tudyabroadcountries",
   },
 ];
 
 const footerStudyAbroad = [
   {
     display: "Study in Japan",
-    url: "#",
+    url: "/studyabroad/japan",
   },
   {
-    display: "Study in Canada",
-    url: "#",
+    display: "Study in Australia",
+    url: "/studyabroad/australia",
+  },
+
+  {
+    display: "Study in UK",
+    url: "/studyabroad/uk",
   },
 
   {
     display: "Study in Denmark",
-    url: "#",
+    url: "/studyabroad/denmark",
+  },
+
+  {
+    display: "Study in Canada",
+    url: "/studyabroad/canada",
+  },
+
+  {
+    display: "Study in Korea",
+    url: "/studyabroad/korea",
   },
 
   {
     display: "Study in USA",
-    url: "#",
+    url: "/studyabroad/usa",
   },
 ];
 
 const footerTestPreparation = [
   {
     display: "IELTS",
-    url: "#",
+    url: "/preparation",
   },
   {
-    display: "TOEFL",
-    url: "#",
+    display: "PTE",
+    url: "/preparation",
   },
 
   {
-    display: "PTE",
-    url: "#",
+    display: "NAT(N5 & N4)",
+    url: "/preparation",
+  },
+
+  {
+    display: "JLPT",
+    url: "/preparation",
   },
 ];
 const Footer = () => {
@@ -79,14 +106,7 @@ const Footer = () => {
               <span>
                 {" "}
                 <a href="facebook.com">
-                  <LinkedInIcon fontSize="large"/>
-                </a>
-              </span>
-
-              <span>
-                {" "}
-                <a href="facebook.com">
-                  <InstagramIcon fontSize="large"/>
+                  <TwitterIcon fontSize="large"/>
                 </a>
               </span>
 
@@ -100,7 +120,28 @@ const Footer = () => {
               <span>
                 {" "}
                 <a href="facebook.com">
-                  <TwitterIcon fontSize="large"/>
+                  <LinkedInIcon fontSize="large"/>
+                </a>
+              </span>
+
+              <span>
+                {" "}
+                <a href="facebook.com">
+                  <WhatsApp fontSize="large"/>
+                </a>
+              </span>
+
+              <span>
+                {" "}
+                <a href="facebook.com">
+                  <InstagramIcon fontSize="large"/>
+                </a>
+              </span>
+
+              <span>
+                {" "}
+                <a href="facebook.com">
+                  <YouTube fontSize="large"/>
                 </a>
               </span>
             </div>
@@ -112,7 +153,7 @@ const Footer = () => {
               {footerQuickLinks.map((item, index) => (
                 <ListGroupItem key={index} className="border-0 ps-0 link__item">
                   {" "}
-                  <a href={item.url}>{item.display}</a>
+                  <Link to={item.url}>{item.display}</Link>
                 </ListGroupItem>
               ))}
             </ListGroup>
@@ -124,7 +165,7 @@ const Footer = () => {
               {footerStudyAbroad.map((item, index) => (
                 <ListGroupItem key={index} className="border-0 ps-0 link__item">
                   {" "}
-                  <a href={item.url}>{item.display}</a>
+                  <Link to={item.url}>{item.display}</Link>
                 </ListGroupItem>
               ))}
             </ListGroup>
@@ -136,7 +177,7 @@ const Footer = () => {
               {footerTestPreparation.map((item, index) => (
                 <ListGroupItem key={index} className="border-0 ps-0 link__item">
                   {" "}
-                  <a href={item.url}>{item.display}</a>
+                  <Link to={item.url}>{item.display}</Link>
                 </ListGroupItem>
               ))}
             </ListGroup>
