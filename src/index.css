@@ -53,8 +53,14 @@ fieldset{
   width: 4rem;
   height: 4rem;
 }
-.footer h3,.footer h6, .footer a, .footer .copyright{
-  color: white !important;
+.footer h3,.footer h6{
+  color:white!important;
+}
+ .footer a, .footer .copyright{
+  color: #e1daea !important;
+}
+.footer a:hover{
+  color: white!important;
 }
 .fw-5{
   font-weight: 600;
@@ -74,6 +80,12 @@ fieldset{
 .list-item-custom{
   list-style-type: disc;
   line-height: 30px;
+}
+.imp-li{
+  display: inline-block;
+}
+.imp-links{
+  text-align: center;
 }
 @media (max-width: 768px)
 {

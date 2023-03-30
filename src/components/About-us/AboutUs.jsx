@@ -57,8 +57,7 @@ const AboutUs = () => {
          index % 2 !== 0 ?
           <div className="row py-5 my-5 d-flex align-items-center">
             <div className="col-md-6 col-sm-12 relative text-center">
-              <img className="side-img" src={aboutone} alt="usa"></img>
-              <img className="blob-img" src={blobanimation} alt="blob"></img>
+              <img className="side-img" src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="usa"></img>
             </div>
             <div className="col-md-6 col-sm-12">
             <h1 fw-bold>{item.heading}</h1>
@@ -71,8 +70,7 @@ const AboutUs = () => {
             <p className="lh-base">{item.content}</p>
             </div>
             <div className="col-md-6 col-sm-12 relative text-center">
-              <img className="side-img" src={aboutone} alt="usa"></img>
-              <img className="blob-img" src={blobanimation} alt="blob"></img>
+              <img className="side-img" src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="usa"></img>
             </div>
           </div>
         ))
@@ -84,6 +82,7 @@ const AboutUs = () => {
             <div className='child'>
               <img className="tlogo" src={krishna}/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Krishna Acharya</p>
+              <p className="team-name m-0 lh-base fs-6">Krishna Prasad Sharma</p>
               <p className="team-role m-0 lh-base">CEO</p>
             </div>
             <div className='child'>
@@ -94,43 +93,43 @@ const AboutUs = () => {
             <div className='child'>
               <img className="tlogo" src={hemraj} alt="planning"/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Hemraj Sharma</p>
-              <p className="team-role m-0 lh-base">Canada Head</p>
+              <p className="team-role m-0 lh-base">Canada Facilitator</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={chandra} alt="planning"/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Chandra Datta Sharam</p>
-              <p className="team-role m-0 lh-base">Korea Head</p>
+              <p className="team-role m-0 lh-base">Korea Facilitator</p>
             </div>
 
             <div className='child'>
               <img className="tlogo" src={prakash} alt="planning"/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Prakash paudel</p>
-              <p className="team-role m-0 lh-base">USA Head</p>
+              <p className="team-role m-0 lh-base">USA Facilitator</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={krish} alt="planning"/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Krish Lamichhane</p>
-              <p className="team-role m-0 lh-base">Japan Head</p>
+              <p className="team-role m-0 lh-base">Japan Facilitator</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={sagar} alt="planning"/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Sagar Acharya</p>
-              <p className="team-role m-0 lh-base">USA Head</p>
+              <p className="team-role m-0 lh-base">USA Facilitator</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={aboutone} alt="planning"/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Uttam Pandit</p>
-              <p className="team-role m-0 lh-base">Japan Head</p>
+              <p className="team-role m-0 lh-base">Japan Facilitator</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={pritam} alt="planning"/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Pritam Khadka</p>
-              <p className="team-role m-0 lh-base">Australia Head</p>
+              <p className="team-role m-0 lh-base">Australia Facilitator</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={palden} alt="planning"/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Palden Sensei</p>
-              <p className="team-role m-0 lh-base">Japan Faciliter</p>
+              <p className="team-role m-0 lh-base">Japan Facilitator</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={bimala} alt="planning"/>
@@ -140,7 +139,7 @@ const AboutUs = () => {
             <div className='child'>
               <img className="tlogo" src={dristee} alt="planning"/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Dristee Shinkhada</p>
-              <p className="team-role m-0 lh-base">Canada Faciliter</p>
+              <p className="team-role m-0 lh-base">Canada Facilitator</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={sumitra} alt="planning"/>

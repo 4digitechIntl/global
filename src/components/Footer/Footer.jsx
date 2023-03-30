@@ -92,6 +92,73 @@ const footerTestPreparation = [
     url: "/preparation",
   },
 ];
+
+const importantLinks=[
+  {
+    display: "Online NOC Application",
+    url: "https://noc.moest.gov.np/login",
+  },
+  {
+    display: "British Council IELTS",
+    url: "https://www.britishcouncil.org.np/exam/ielts/dates-fees-locations",
+  },
+  {
+    display: "IDP IELTS",
+    url: "https://ielts.idp.com/nepal/test-dates/kathmandu",
+  },
+  {
+    display: "PTE Date and Booking Nepal",
+    url: "https://www.pearsonpte.com/articles/how-to-book-your-pte-academic-exam",
+  },
+  {
+    display: "NAT Center, Nepal",
+    url: "https://kathmandu.nat-test.jp/",
+  },
+  {
+    display: "JLPT",
+    url: "https://jlpt.org.np/",
+  },
+  {
+    display: "JCERT Nepal",
+    url: "https://j-cert.mtroyalgroups.com/",
+  },
+  {
+    display: "JLCT Nepal",
+    url: "https://jlct.jp/e/index.html",
+  },
+  {
+    display: "VFS Global",
+    url: "https://visa.vfsglobal.com/npl/en/ita/book-an-appointment",
+  },
+  {
+    display: "Embassy of Japan",
+    url: "https://www.np.emb-japan.go.jp/itprtop_en/index.html",
+  },
+  {
+    display: "Embassy of Australia",
+    url: "https://nepal.embassy.gov.au/",
+  },
+  {
+    display: "Local Government, Nepal",
+    url: "https://sthaniya.gov.np/gis/website/",
+  },
+  {
+    display: "PAN Registration",
+    url: "https://taxpayerportal.ird.gov.np/taxpayer/app.html",
+  },
+  {
+    display: "COVID Vaccine Registration",
+    url: "https://vaccine.mohp.gov.np/",
+  },
+  {
+    display: "Department of Passport, Nepal",
+    url: "https://nepalpassport.gov.np/",
+  },
+  {
+    display: "Education Consultancy Organization, Nepal",
+    url: "https://fecon.org.np/",
+  },
+];
 const Footer = () => {
   return (
     <footer className="footer">
@@ -183,6 +250,18 @@ const Footer = () => {
             </ListGroup>
           </Col>
         </Row>
+        <hr className="c-white"></hr>
+        <div className="imp-links">
+        <h6 className="fw-bold">Important Links</h6>
+                <ul className="border-0 ps-0">
+                  {importantLinks.map((item, index) => (
+                    <li className="imp-li">
+                      <a href={item.url}>{item.display}</a>
+                      <span className="px-3 c-white">|</span>
+                    </li>
+                  ))} 
+                </ul> 
+        </div>    
         <hr className="c-white"></hr>
         <div className="copyright d-flex justify-content-center">Copyright © 2023 Global Moon Consultancy</div>
       </Container>
