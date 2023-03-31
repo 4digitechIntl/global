@@ -256,7 +256,7 @@ const Footer = () => {
                 <ul className="border-0 ps-0">
                   {importantLinks.map((item, index) => (
                     <li className="imp-li">
-                      <a href={item.url}>{item.display}</a>
+                      <a href={item.url} target="_blank">{item.display}</a>
                       <span className="px-3 c-white">|</span>
                     </li>
                   ))} 

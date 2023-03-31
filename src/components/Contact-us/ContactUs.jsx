@@ -12,6 +12,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import VideocamIcon from '@mui/icons-material/Videocam';
 const tf ={
     width:'95%',
     margin:'10px',
@@ -89,7 +90,7 @@ const AboutUs = () => {
                         <li className="list-card">
                             <p className="fw-bold mb-0">Call Us</p>
                             <p className="mb-0 lh-base">Talk to us via phone.</p>
-                            <p className="fw-bold mb-0"><PhoneIcon className="crc-btn p-1" />
+                            <p className="fw-bold mb-0"><PhoneIcon className="crc-btn p-1 mr-2" />
                              <a href="tel:014168319"> 01-4168319 </a><span> , </span>
                              <a href="tel:9863448300"> 9863448300 </a><span> , </span>
                              <a href="tel:9815150952"> 9815150952 </a><span> , </span>
@@ -98,7 +99,7 @@ const AboutUs = () => {
                         <li className="list-card">
                             <p className="fw-bold mb-0">Visit  Us</p>
                             <p className="mb-0 lh-base" >Visit Us to location provided below:</p>
-                            <p className="fw-bold mb-0"><FmdGoodIcon  className="crc-btn p-1"/>
+                            <p className="fw-bold mb-0"><FmdGoodIcon  className="crc-btn p-1 mr-2"/>
                                 <a href="https://www.google.com/maps/place/Global+Moon+Consultancy+Pvt.Ltd./@27.7029231,85.3197507,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb19710582c1ed:0xf44e166229c0551a!8m2!3d27.7029184!4d85.3219394!16s%2Fg%2F11g1pncjdz" target='bl
                                 '>
                                     Putalisadak, Kathmandu, Nepal
@@ -106,11 +107,11 @@ const AboutUs = () => {
                             </p>
                         </li>
                         <li className="list-card">
-                            <p className="fw-bold mb-0">Live Chat</p>
-                            <p className="mb-0 lh-base">Talk with us through messenger.</p>
-                            <p className="fw-bold mb-0"><VideoCallIcon  className="crc-btn p-1"/> 
+                            <p className="fw-bold mb-0">Virtual Meeting</p>
+                            <p className="mb-0 lh-base">Get Counselling at comfort of your home.</p>
+                            <p className="fw-bold mb-0"><VideocamIcon  className="crc-btn p-1 mr-2"/> 
                             <a href="https://www.facebook.com/messages/t/142332636434753" target='_blank'>
-                                Open Chat Head
+                                Get a Quote
                             </a>
                             </p>
                         </li>

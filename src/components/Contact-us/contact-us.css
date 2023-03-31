@@ -20,6 +20,9 @@
     border-radius: 20px;
     color: white;
 }
+.mr-2{
+    margin-right:5px;
+}
 @media (max-width: 768px){
     .list-card{
         margin-top: 15px;

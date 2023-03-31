@@ -76,14 +76,14 @@ const AboutUs = () => {
         ))
       }
       <div className="ourteam">
-        <h1 className="fw-bold">Meet our Team.</h1>
-        <p className="fw-bold fs-5">Get insight on our team.</p>
+        <h1 className="fw-bold text-center">Meet our Team.</h1>
+        <p className="fw-bold fs-5 text-center">Get insight on our team.</p>
         <div className='parent py-5 my-5'>
             <div className='child'>
               <img className="tlogo" src={krishna}/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Krishna Acharya</p>
               <p className="team-name m-0 lh-base fs-6">Krishna Prasad Sharma</p>
-              <p className="team-role m-0 lh-base">CEO</p>
+              <p className="team-role m-0 lh-base">Cheif Executive Officer</p>
             </div>
             <div className='child'>
               <img className="tlogo" src={balaram} alt="planning"/>
@@ -139,6 +139,21 @@ const AboutUs = () => {
             <div className='child'>
               <img className="tlogo" src={dristee} alt="planning"/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Dristee Shinkhada</p>
+              <p className="team-role m-0 lh-base">Canada Facilitator</p>
+            </div>
+            <div className='child'>
+              <img className="tlogo" src={aboutone} alt="planning"/>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Raghu Bhandari</p>
+              <p className="team-role m-0 lh-base">Country Representative</p>
+            </div>
+            <div className='child'>
+              <img className="tlogo" src={aboutone} alt="planning"/>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Devraj Acharya</p>
+              <p className="team-role m-0 lh-base">New Zealand Head</p>
+            </div>
+            <div className='child'>
+              <img className="tlogo" src={aboutone} alt="planning"/>
+              <p className="team-name m-0 lh-base fw-bold fs-5">Prabesh Paudel</p>
               <p className="team-role m-0 lh-base">Canada Facilitator</p>
             </div>
             <div className='child'>
