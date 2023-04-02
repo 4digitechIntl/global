@@ -3,6 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import "./hero-section.css";
 import Carousel from 'react-bootstrap/Carousel';
 import japan from "../../assests/images/japan.jpg";
+import banner1 from "../../assests/images/banner1.jpeg";
 import stdone from "../../assests/images/stdone.png";
 import usa from "../../assests/images/usa.jpg";
 import australia from "../../assests/images/australia.jpg";
@@ -41,7 +42,7 @@ const HeroSection = () => {
             <span className="overlay"/>
             <img
               className="d-block w-100 slider-img"
-              src={australia}
+              src={banner1}
               alt="Second slide"
             />
             <Container>

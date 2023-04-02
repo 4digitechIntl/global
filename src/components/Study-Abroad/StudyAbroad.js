@@ -35,14 +35,7 @@ const countries = [
       content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
       img:"https://images.pexels.com/photos/11013920/pexels-photo-11013920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1&fbclid=IwAR3h5yQsmRL6cQ2Sc8M90DB0WJWAJagjoX_h7O-DtjooFmivFNNDKezl-6k",
       href:"/courses/ilets",
-    },
-  
-    {
-      heading: "Study in Korea.",
-      content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
-      img:"https://images.pexels.com/photos/5051600/pexels-photo-5051600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1&fbclid=IwAR0mdAJZYhaZiBk7TuIltjanJ18uWTesKaLQ4JcSSokOpnr69RXBvp_r8Ao",
-      href:"/courses/ilets",
-    },  
+    }, 
     {
       heading: "Study in Denmark.",
       content: "Study in Australia if you wish to study in a country that is at the helm of innovation and technological advancement. Australia is a diverse, happening country that opens your minds to possibilities and prepares you for a bright future anywhere in the world.",
@@ -82,7 +75,7 @@ const StudyAbroad = () => {
                 }
 
             </Row>
-            <div className="text-center">
+            <div className="text-center mt-5">
             <Link to='/studyabroadcountries' className="btn-hero" href='#contact' style={{width:'300px'}}>
               <span>View More Countries</span>
             </Link>

@@ -10,7 +10,6 @@ import ContactUs from "../components/Contact-us/ContactUs";
 import Footer from "../components/Footer/Footer";
 const countries = [  
   {
-    
     country: "japan",
     maintitle: "Why Study in Japan?",
     maintitlecontent: "Global Moon Consultancy has a unique environment thanks to its team of counselors, educators, managers, and instructors. Our goal is to translate your dreams into reality quickly and practically, while providing excellent service and regular communication. Our team is dedicated to your success, and we pride ourselves on being a friendly and outspoken consultancy that welcomes students from all educational backgrounds and locations. Come visit us and experience a counseling and consultation service that will change your outlook on what's possible.",

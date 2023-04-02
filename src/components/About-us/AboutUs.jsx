@@ -13,6 +13,7 @@ import prakash from "../../assests/employee/prakash.jpg";
 import pritam from "../../assests/employee/pritam.jpg";
 import sagar from "../../assests/employee/sagar.jpg";
 import sumitra from "../../assests/employee/sumitra.jpg";
+import prabesh from "../../assests/employee/prabesh.jpeg";
 import blobanimation from "../../assests/images/blobanimation.svg";
 import "./about.css";
 const aboutus = [  
@@ -152,7 +153,7 @@ const AboutUs = () => {
               <p className="team-role m-0 lh-base">New Zealand Head</p>
             </div>
             <div className='child'>
-              <img className="tlogo" src={aboutone} alt="planning"/>
+              <img className="tlogo" src={prabesh} alt="planning"/>
               <p className="team-name m-0 lh-base fw-bold fs-5">Prabesh Paudel</p>
               <p className="team-role m-0 lh-base">Canada Facilitator</p>
             </div>

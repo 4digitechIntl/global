@@ -14,7 +14,72 @@ import RoomIcon from "@mui/icons-material/Room";
 import EmailIcon from "@mui/icons-material/Email";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import VideocamIcon from '@mui/icons-material/Videocam';
-
+const importantLinks=[
+  {
+    display: "Online NOC Application",
+    url: "https://noc.moest.gov.np/login",
+  },
+  {
+    display: "British Council IELTS",
+    url: "https://www.britishcouncil.org.np/exam/ielts/dates-fees-locations",
+  },
+  {
+    display: "IDP IELTS",
+    url: "https://ielts.idp.com/nepal/test-dates/kathmandu",
+  },
+  {
+    display: "PTE Date and Booking Nepal",
+    url: "https://www.pearsonpte.com/articles/how-to-book-your-pte-academic-exam",
+  },
+  {
+    display: "NAT Center, Nepal",
+    url: "https://kathmandu.nat-test.jp/",
+  },
+  {
+    display: "JLPT",
+    url: "https://jlpt.org.np/",
+  },
+  {
+    display: "JCERT Nepal",
+    url: "https://j-cert.mtroyalgroups.com/",
+  },
+  {
+    display: "JLCT Nepal",
+    url: "https://jlct.jp/e/index.html",
+  },
+  {
+    display: "VFS Global",
+    url: "https://visa.vfsglobal.com/npl/en/ita/book-an-appointment",
+  },
+  {
+    display: "Embassy of Japan",
+    url: "https://www.np.emb-japan.go.jp/itprtop_en/index.html",
+  },
+  {
+    display: "Embassy of Australia",
+    url: "https://nepal.embassy.gov.au/",
+  },
+  {
+    display: "Local Government, Nepal",
+    url: "https://sthaniya.gov.np/gis/website/",
+  },
+  {
+    display: "PAN Registration",
+    url: "https://taxpayerportal.ird.gov.np/taxpayer/app.html",
+  },
+  {
+    display: "COVID Vaccine Registration",
+    url: "https://vaccine.mohp.gov.np/",
+  },
+  {
+    display: "Department of Passport, Nepal",
+    url: "https://nepalpassport.gov.np/",
+  },
+  {
+    display: "Education Consultancy Organization, Nepal",
+    url: "https://fecon.org.np/",
+  },
+];
 const Header = () => {
   const menuRef = useRef();
 
@@ -34,7 +99,7 @@ const Header = () => {
             className="m-2"
           >
             <RoomIcon />
-            Putalishadak, Kathmandu, Nepal
+            Putalisadak, Kathmandu, Nepal
           </a>
           <div className="social-links">
             <a href="https://twitter.com/globalmoon_edu" target="_blank">
@@ -215,6 +280,23 @@ const Header = () => {
                           <li className="drop_menu">
                             <a href='#' className="drop_menu_a">JLPT</a>
                           </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li className="nav__item">
+                  <a href="#">Important Links
+                  <ArrowDropDownIcon></ArrowDropDownIcon></a>
+                <div className="dropdown" style={{transform: 'translate(-20px, 0px)'}}>
+                    <div className="row">
+                      <div className="col-12 px-4">
+                        <ul className="m-0 p-0">
+                        {importantLinks.map((item, index) => (
+                          <li className="drop_menu">
+                            <Link to={item.url} className="drop_menu_a">{item.display}</Link>
+                          </li>
+                        ))}
                         </ul>
                       </div>
                     </div>

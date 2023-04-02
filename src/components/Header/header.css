@@ -18,7 +18,7 @@
 
 .nav__item a {
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: #0a2b1e;
   text-decoration: none;
   transition: 0.3s;
@@ -83,6 +83,7 @@
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  font-size: 0.9rem;
 }
 .drop_menu .drop_menu_a:before {
   content: '✈';

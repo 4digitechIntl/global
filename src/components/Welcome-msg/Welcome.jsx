@@ -5,7 +5,8 @@ import operator from "../../assests/images/operator.png";
 import rating from "../../assests/images/rating.png";
 import calendar from "../../assests/images/calendar.png";
 import passport from "../../assests/images/passport.png";
-
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
 const Welcome = () => {
 
   return (
@@ -18,29 +19,54 @@ const Welcome = () => {
                 <div className="col text-center">
                     <img src={passport} alt='password' className="counter-icon"/>
                     <div className="fw-bold fs-2">
-                        1,000+ 
+                        <CountUp end={1000}>
+                            {(
+                                {countUpRef, start})=>(
+                                    <VisibilitySensor onChange={start} delayedCall>
+                                        <div className="fw-bold fs-2"><span ref={countUpRef}/>+</div>
+                                    </VisibilitySensor>
+                            )}
+                        </CountUp>
                     </div>
                     <p className="fw-bold">Visa Granted.</p>
                 </div>
                 <div className="col text-center">
                     <img src={operator} alt='password' className="counter-icon"/>
-                    <div className="fw-bold fs-2">
-                        20+ 
-                    </div>
+
+                    <CountUp end={20}>
+                            {(
+                                {countUpRef, start})=>(
+                                    <VisibilitySensor onChange={start} delayedCall>
+                                        <div className="fw-bold fs-2"><span ref={countUpRef}/>+</div>
+                                    </VisibilitySensor>
+                            )}
+                        </CountUp>
                     <p className="fw-bold">Best Counceling Team.</p>
                 </div>
                 <div className="col text-center">
                     <img src={calendar} alt='password' className="counter-icon"/>
-                    <div className="fw-bold fs-2">
-                        10+ years 
-                    </div>
+
+                    <CountUp end={10}>
+                            {(
+                                {countUpRef, start})=>(
+                                    <VisibilitySensor onChange={start} delayedCall>
+                                        <div className="fw-bold fs-2"><span ref={countUpRef}/>+</div>
+                                    </VisibilitySensor>
+                            )}
+                        </CountUp>
                     <p className="fw-bold">Years Experince.</p>
                 </div>
                 <div className="col text-center">
                     <img src={rating} alt='password' className="counter-icon"/>
-                    <div className="fw-bold fs-2">
-                        50+ 
-                    </div>
+
+                    <CountUp end={50}>
+                            {(
+                                {countUpRef, start})=>(
+                                    <VisibilitySensor onChange={start} delayedCall>
+                                        <div className="fw-bold fs-2"><span ref={countUpRef}/>+</div>
+                                    </VisibilitySensor>
+                            )}
+                        </CountUp>
                     <p className="fw-bold">Professional Instructors.</p>
                 </div>
 

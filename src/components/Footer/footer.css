@@ -13,6 +13,13 @@
 .link__list .link__item {
   background: transparent;
 }
+/* .vr-right::before{
+  content: '';
+  padding: 0;
+    width: 3px;
+    background: #f37224;
+    margin: 0;
+} */
 
 .link__list a {
   text-decoration: none;
