@@ -294,7 +294,7 @@ const Header = () => {
                         <ul className="m-0 p-0">
                         {importantLinks.map((item, index) => (
                           <li className="drop_menu">
-                            <Link to={item.url} className="drop_menu_a">{item.display}</Link>
+                            <a href={item.url} className="drop_menu_a" target='_blank'>{item.display}</a>
                           </li>
                         ))}
                         </ul>
