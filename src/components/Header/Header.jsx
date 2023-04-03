@@ -128,7 +128,7 @@ const Header = () => {
       </Container>
       <nav className="navbar navbar-expand-md  py-3 d-flex justify-content-between">
         <Container>
-          <div className="logo">
+          <div className="header-logo">
             <Link to='/'>
             <img src={Logo} alt="Logo" height={60} />
             </Link>
