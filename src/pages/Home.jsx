@@ -10,7 +10,7 @@ import Testimonials from "../components/Testimonial/Testimonials";
 // import Newsletter from "../components/Newsletter/Newsletter";
 import { Close } from "@mui/icons-material";
 import { Dialog, DialogContent } from "@mui/material";
-import DialogImg from "../assests/images/modal.jpg";
+import DialogImg from "../assests/images/banner1.jpeg";
 import ContactUs from "../components/Contact-us/ContactUs";
 import Footer from "../components/Footer/Footer";
 import StudyAbroad from "../components/Study-Abroad/StudyAbroad";
