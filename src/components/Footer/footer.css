@@ -20,6 +20,14 @@
     background: #f37224;
     margin: 0;
 } */
+.vr-custom{
+  height: -webkit-fill-available;
+  width: 1px;
+  background: #e1daea;
+  z-index: 999999;
+  position: absolute;
+  right: 0;
+}
 
 .link__list a {
   text-decoration: none;

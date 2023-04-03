@@ -165,7 +165,8 @@ const Footer = () => {
     <footer className="footer">
       <Container>
         <Row>
-          <Col lg="3" md="6" className="mb-4 vr-right">
+          <Col lg="3" md="6" className="mb-4 relative">
+            <div className="vr-custom"></div>
             <div className="logo pb-3">
                 <img src={revert} alt="Logo" height={60}/>
             </div>
@@ -214,7 +215,8 @@ const Footer = () => {
               </span>
             </div>
           </Col>
-          <Col lg="3" md="6" className="mb-4">
+          <Col lg="3" md="6" className="mb-4 relative">
+            <div className="vr-custom"></div>
             <h6 className="fw-bold">Explore</h6>
             <ListGroup className="link__list">
               {footerQuickLinks.map((item, index) => (
@@ -226,7 +228,8 @@ const Footer = () => {
             </ListGroup>
           </Col>
 
-          <Col lg="3" md="6" className="mb-4">
+          <Col lg="3" md="6" className="mb-4 relative">
+            <div className="vr-custom"></div>
             <h6 className="fw-bold">Study Abroad</h6>
             <ListGroup className="link__list">
               {footerStudyAbroad.map((item, index) => (
@@ -239,6 +242,7 @@ const Footer = () => {
           </Col>
 
           <Col lg="3" md="6">
+            <div className="vr-custom"></div>
             <h6 className="fw-bold">Test Preparation</h6>
             <ListGroup className="link__list">
               {footerTestPreparation.map((item, index) => (
