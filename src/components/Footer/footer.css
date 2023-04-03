@@ -28,7 +28,18 @@
   position: absolute;
   right: 0;
 }
-
+@media only screen and (max-width: 991px) {
+  .vr-custom-2
+  {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .vr-custom
+  {
+    display: none;
+  }
+}
 .link__list a {
   text-decoration: none;
   color: #0a2b1e;

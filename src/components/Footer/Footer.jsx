@@ -216,7 +216,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col lg="3" md="6" className="mb-4 relative">
-            <div className="vr-custom"></div>
+            <div className="vr-custom vr-custom-2"></div>
             <h6 className="fw-bold">Explore</h6>
             <ListGroup className="link__list">
               {footerQuickLinks.map((item, index) => (
