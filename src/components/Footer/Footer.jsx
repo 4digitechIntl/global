@@ -267,7 +267,7 @@ const Footer = () => {
                 </ul> 
         </div>     */}
         <hr className="c-white"></hr>
-        <div className="copyright d-flex justify-content-center">Copyright © 2023 Global Moon Consultancy</div>
+        <div className="copyright d-flex justify-content-center">Copyright © 2023 Global Moon Consultancy Pvt. Ltd.</div>
       </Container>
     </footer>
   );

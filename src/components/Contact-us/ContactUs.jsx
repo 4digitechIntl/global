@@ -98,7 +98,7 @@ const AboutUs = () => {
                         </li>
                         <li className="list-card">
                             <p className="fw-bold mb-0">Visit  Us</p>
-                            <p className="mb-0 lh-base" >Visit Us to location provided below:</p>
+                            <p className="mb-0 lh-base" >Visit us at our head office:</p>
                             <p className="fw-bold mb-0"><FmdGoodIcon  className="crc-btn p-1 mr-2"/>
                                 <a href="https://www.google.com/maps/place/Global+Moon+Consultancy+Pvt.Ltd./@27.7029231,85.3197507,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb19710582c1ed:0xf44e166229c0551a!8m2!3d27.7029184!4d85.3219394!16s%2Fg%2F11g1pncjdz" target='bl
                                 '>
@@ -124,7 +124,7 @@ const AboutUs = () => {
                 </div>
             </Row>
             <div className="row py-5 br-2">
-            <div className="col-sm-12 col-md-6">
+            <div className="col-sm-12 col-md-3">
                 <p className="fw-bold fs-5">Our International Branches</p>
                 
                 <li className="list-card">
@@ -143,6 +143,28 @@ const AboutUs = () => {
                     <p className="fw-bold mb-0">Sydney, Australia</p>
                     <p className="fw-bold mb-0"><PhoneIcon className="crc-btn p-1" />
                         <a href="tel:+61 2 6201 5111"> +61 2 6201 5111 </a>
+                    </p>
+                </li>
+            </div>
+            <div className="col-sm-12 col-md-3">
+                <p className="fw-bold fs-5">Our National Branches</p>
+                
+                <li className="list-card">
+                    <p className="fw-bold mb-0">Kathmandu, Nepal</p>
+                    <p className="fw-bold mb-0"><PhoneIcon className="crc-btn p-1" />
+                        <a href="tel:+977 9815150952"> +977 9815150952</a>
+                    </p>
+                </li>                
+                <li className="list-card">
+                    <p className="fw-bold mb-0">Tulsipur, Dang</p>
+                    <p className="fw-bold mb-0"><PhoneIcon className="crc-btn p-1" />
+                        <a href="tel:+977 9863448300"> +977 9863448300 </a>
+                    </p>
+                </li>                
+                <li className="list-card">
+                    <p className="fw-bold mb-0">Tandi, Chitwan</p>
+                    <p className="fw-bold mb-0"><PhoneIcon className="crc-btn p-1" />
+                        <a href="tel:+977 9815175900"> +977 9815175900 </a>
                     </p>
                 </li>
             </div>
