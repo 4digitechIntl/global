@@ -1,5 +1,5 @@
 import "./welcome.css";
-import EmailIcon from '@mui/icons-material/Email';
+// import EmailIcon from '@mui/icons-material/Email';
 
 import operator from "../../assests/images/operator.png";
 import rating from "../../assests/images/rating.png";

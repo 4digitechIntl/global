@@ -14,7 +14,7 @@ import pritam from "../../assests/employee/pritam.jpg";
 import sagar from "../../assests/employee/sagar.jpg";
 import sumitra from "../../assests/employee/sumitra.jpg";
 import prabesh from "../../assests/employee/prabesh.jpeg";
-import blobanimation from "../../assests/images/blobanimation.svg";
+// import blobanimation from "../../assests/images/blobanimation.svg";
 import "./about.css";
 const aboutus = [  
   {

@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./hero-section.css";
 import Carousel from 'react-bootstrap/Carousel';
-import japan from "../../assests/images/japan.jpg";
+// import japan from "../../assests/images/japan.jpg";
 import banner1 from "../../assests/images/banner1.jpeg";
 import stdone from "../../assests/images/stdone.png";
 import usa from "../../assests/images/usa.jpg";
-import australia from "../../assests/images/australia.jpg";
+// import australia from "../../assests/images/australia.jpg";
 
 import carousel_one from "../../assests/images/carousel_one.jpeg";
 
