@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-// import revert from "../../assests/images/revert-logo.png";
 import revert from "../../assests/images/whitebglogo.jpg";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
