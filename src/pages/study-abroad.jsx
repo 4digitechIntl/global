@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import usa from "../assests/images/usa.jpg";
-import aboutone from "../assests/images/aboutone.png";
+// import aboutone from "../assests/images/aboutone.png";
 import blobanimation from "../assests/images/blobanimation.svg";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 
 import Header from "../components/Header/Header"
 import Testimonials from "../components/Testimonial/Testimonials";

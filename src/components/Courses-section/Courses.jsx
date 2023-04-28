@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row } from "reactstrap";
 import "./courses.css";
-import stroke from "../../assests/images/stroke.jpg";
+// import stroke from "../../assests/images/stroke.jpg";
 import { Link } from "react-router-dom";
 const courses = [  
   {
